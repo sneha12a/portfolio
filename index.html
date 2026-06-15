@@ -1,0 +1,1240 @@
+<!doctype html>
+<html>
+    <head>
+        <title>"AOI"</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section class="header-nav">
+    	<header>
+    		<div class="logo">
+    				<img class="img-fluid" src="logo (2).png">
+    			</div>
+    		<div class="right-menu" id="mobileMenu">
+    			
+    				<div class="Language-box">
+    					<img src="language.svg" class="img-fluid">
+						<select class="language-select">
+  							<option selected disabled>Select Language</option>
+  							<option>English</option>
+       						<option>Hindi</option>
+  							<option>French</option>
+  							<option>German</option>
+ 							<option>Sanskrit</option>
+						</select>
+					</div>
+    				<div class="location-box">
+    					<img src="location.svg" class="img-fluid">
+						<select class="location-select">
+  							<option selected disabled>Current Location</option>
+  							<option>Delhi</option>
+       						<option>Mumbai</option>
+  							<option>Agra</option>
+  							<option>Bangalore</option>
+ 							<option>Jaipur</option>
+						</select>
+					</div>
+					<div class="phone-box">
+						<img src="phone.svg" class="img-fluid">
+						<h4>Call Us Now<br><span><a href="tel:768594823">+91768594823</a></span></h4>
+					</div>
+					<button id="get-option">Get Second Option</button>
+				</div>
+    		</div>
+            <div id="head-mobile-view" onclick="toggleMenu()">
+    <span style ="display: none;"></span>
+    <span></span>
+    <span></span>
+</div>
+    	</header>
+    	<nav>
+    		<div class="nav-elements">
+    		<a href="#our-doctors-and-speciality">Our Doctors</a>
+    		<a href="#get-second-opinion">Second Opinion</a>
+    		<a href="#get-video-session">Video Consultation</a>
+    		<a href="#our-patient-stories">Patient Stroies</a>
+    		<a href="#why-aoi">Why AOI</a>
+    		<a href="#our-faq">FAQ</a>
+    		<a href="#our-gallery">Gallery</a>
+    		</div>
+    	</nav>
+    </section>
+    	<section class="main">
+                
+   <div class="announcement">
+    <div class="announcement-text">
+        <p>
+            <img src="star 1.png" class="img-fluid star-icon">
+           Announcement Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text<img src="star 1.png" class="img-fluid star-icon">
+            Announcement Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+        </p>
+    </div>
+</div>
+                <video class="img-fluid" autoplay muted loop playsinline>
+  <source src="video.mp4" type="video/mp4" >
+  Your browser does not support the video tag.
+</video>
+                <div class="main-text">
+                    <h4>Get Expert Cancer Care:</h4><h3>Second Opinion & Video Consultation</h3><p>Upload your reports or book a live doctor call</p>
+                </div>
+
+            </div>
+            <div class="main-box"><div class="second"><h3>Get a Second Opinion</h3><p>Please fill in the form and submit the details to request a call back</p></div>
+                <form class="input">
+                    <input type="text" class="form-control1" placeholder="Name" required>
+                    <input type="tel" class="form-control1" placeholder="Phone No." required>
+                    <input type="text" class="form-control1" placeholder="Message" required>
+                    <input type="file" id="reportUpload" hidden>
+                    <button class="upload" onclick="document.getElementById('reportUpload').click()">
+                    Upload Your Report</button>
+                    <button class="submit">Submit</button>
+                </form>
+            </div>
+    	</section>
+        <section class="Techno">
+  <div class="container">
+    <div class="row techno-item">
+
+      <div class="col-md-3 col-xs-6">
+        <div class="boo">
+          <h3><span class="counter" data-target="500">0</span>+</h3>
+          <p>Advanced Technologies</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-xs-6">
+        <div class="boo">
+          <h3><span class="counter" data-target="24">0</span>M+</h3>
+          <p>Advanced</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-xs-6">
+        <div class="boo">
+          <h3><span class="counter" data-target="500">0</span>+</h3>
+          <p>Technology</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-xs-6">
+        <div class="boo">
+          <h3><span class="counter" data-target="500">0</span>+</h3>
+          <p>Technology</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+        <section id="our-doctors-and-speciality"class="docs">
+            <div class="doc-text"><h3>Our Doctors & Specialists</h3><br><p>Meet our leading oncologists and specialists dedicated to providing the best outcomes for patients.</p></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 "><div class="doc-text-image"><div class="doctor-images"><img src="doc1.png" class="img-fluid"></div>
+                        <div class="doctors-text"><h3>Dr Ritu Aggarwal</h3><p>Radiation Oncologist</p><button onclick="openVideoModal()">Book a Video Consultation</button><button class="open-btn"    onclick="openModal()">Get a Second Opinion</button></div></div>
+                </div>
+                    <div class="col-md-3 "><div class="doc-text-image"><div class="doctor-images"><img src="doc2.png" class="img-fluid"></div>
+                    <div class="doctors-text"><h3>Dr Ritu Aggarwal</h3><p>Radiation Oncologist</p><button onclick="openVideoModal()">Book a Video Consultation</button><button class="open-btn"    onclick="openModal()">Get a Second Opinion</button></div></div>
+                </div>
+                    <div class="col-md-3 "><div class="doc-text-image"><div class="doctor-images"><img src="doc3.png" class="img-fluid"></div>
+                    <div class="doctors-text"><h3>Dr Ritu Aggarwal</h3><p>Radiation Oncologist</p><button onclick="openVideoModal()">Book a Video Consultation</button><button class="open-btn"    onclick="openModal()">Get a Second Opinion</button></div></div>
+                </div>
+                    <div class="col-md-3 "><div class="doc-text-image"><div class="doctor-images"><img src="doc4.png" class="img-fluid"></div>
+                    <div class="doctors-text"><h3>Dr Ritu Aggarwal</h3><p>Radiation Oncologist</p><button onclick="openVideoModal()">Book a Video Consultation</button><button class="open-btn"    onclick="openModal()">Get a Second Opinion</button></div></div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="get-second-opinion" class="second-opinion">
+            <div class="container">
+                <div class="second-opinion-text"><h3>Get Second opinion</h3><p>Please fill in the form and submit the details to request an appointment.</p></div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="steps"><img src="step-1.svg" class="img-fluid"><h5>Step 1<br><span>Register by entering the caregiver or patient details</span></h5></div>
+                        <div class="steps"><img src="step-2.svg" class="img-fluid"><h5>Step 2<br><span>Scan the reports and upload them, connect with us for any issues related to registration/uploading</span></h5></div>
+                        <div class="steps"><img src="step-1.svg" class="img-fluid"><h5>Step 3<br><span>Every case will be mapped to a specialist, who will share relevant advice after carefully studying the case reports</span></h5></div>    
+                    </div>
+                    <div class="col-md-7">
+                        <div class="sec-form">
+                            <div>
+                            <input class="form-element" type="text" placeholder="Name">
+                            <input class="form-element" type="phone" placeholder="Phone no."></div>
+                            <div>
+                            <select class="form-element">
+                            <option selected disabled>Select Location</option>
+                            <option>Delhi</option>
+                            <option>Mumbai</option>
+                            <option>Agra</option>
+                            <option>Bangalore</option>
+                            <option>Jaipur</option>
+                        </select>
+                            <select class="form-element">
+                            <option selected disabled>Select Services</option>
+                            <option>Delhi</option>
+                            <option>Mumbai</option>
+                            <option>Agra</option>
+                            <option>Bangalore</option>
+                            <option>Jaipur</option>
+                        </select>
+                    </div><div>
+                        <input class="form-element" type="text" placeholder="Message">
+                        <button class="form-element upload-report" onclick="document.getElementById('reportUpload').click()">
+                        Upload Your Report</button>
+                    </div><div class="check-terms">
+                        <input type="checkbox" id="terms">
+                        <label for="terms" >I agree to the <a class="agree" href="#">terms and conditions *</a></label></div>
+                        <div>
+                        <button class="form-element submit">Submit</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section  id="get-video-session"class="video-session">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="video-session-text"><h2>Your Personalized Video Session</h2></div>
+                        <div class="video-session-colum"><img src="group.png" class="img-fluid join"><p>Join the Call<br><span>Use the provided link—just click and connect.</span></p></div>
+                        <div class="video-session-colum"><img src="group.png" class="img-fluid join"><p>Join the Call<br><span>Use the provided link—just click and connect.</span></p></div>
+                        <div class="video-session-colum"><img src="group.png" class="img-fluid join"><p>Join the Call<br><span>Use the provided link—just click and connect.</span></p></div>
+                        <button class="video-session-button">Get A Video Consultation</button>
+                    </div>
+                    <div class="col-md-6"><div class="doc-image"><img src="doc-image.png" class="img-fluid"></div></div>
+                </div>
+            </div>
+        </section>
+        <section><div><h2 class="cancer-treated">Cancer We Treated</h2></div>
+
+        <div class="container mt-4">
+
+  <!-- Tabs -->
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button">
+        By Cancer Type
+      </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button">
+        By Treatment Type
+      </button>
+    </li>
+  </ul>
+
+  <!-- Tab Content -->
+  <div class="tab-content mt-3" id="myTabContent">
+    <div class="tab-pane fade show active" id="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="grid-box">
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer1.png" class="img-fluid"><p>Breast Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer2.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer3.png" class="img-fluid"><p>Head & Neck Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer4.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer5.png" class="img-fluid"><p>Gastrointestinal Cancers</p></a></div>
+                </div>
+           
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer1.png" class="img-fluid"><p>Breast Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer2.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer3.png" class="img-fluid"><p>Head & Neck Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer4.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer5.png" class="img-fluid"><p>Gastrointestinal Cancers</p></a></div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="tab-pane fade" id="profile">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="grid-box">
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer1.png" class="img-fluid"><p>Breast Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer2.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer3.png" class="img-fluid"><p>Head & Neck Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer4.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer5.png" class="img-fluid"><p>Gastrointestinal Cancers</p></a></div>
+                </div>
+          
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer1.png" class="img-fluid"><p>Breast Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer2.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer3.png" class="img-fluid"><p>Head & Neck Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer4.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer5.png" class="img-fluid"><p>Gastrointestinal Cancers</p></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+</section>
+        <section class="our-tpa">
+            <div class="video-session-text2"><h2>Our TPA's/ Insurance Association</h2></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="grid-box">
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Breast Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Head & Neck Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Gastrointestinal Cancers</p></a></div>
+                </div>
+            
+            
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Breast Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Head & Neck Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Gastrointestinal Cancers</p></a></div>
+                </div>
+            
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Breast Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Head & Neck Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Lung Cancer</p></a></div>
+                </div>
+                <div class="box-div">
+                    <div class="cancer-img-content"><a href="#"><img src="cancer6.png" class="img-fluid"><p>Gastrointestinal Cancers</p></a></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <button class="viewmore" href="#">View More</button>
+        </section>
+        <section class="technology-infra">
+            <div class="technology-infra-text"><h4>Technology & infrastructure</h4></div>
+            <ul class="nav nav-tabs tech" role="tablist">
+
+          <li class="nav-item">
+            <button class="nav-link active tech" data-bs-toggle="tab" data-bs-target="#operation">
+              Operation theaters
+            </button>
+          </li>
+
+          <li class="nav-item">
+            <button class="nav-link tech" data-bs-toggle="tab" data-bs-target="#icu">
+              ICU Facilities
+            </button>
+          </li>
+
+          <li class="nav-item">
+            <button class="nav-link tech" data-bs-toggle="tab" data-bs-target="#diagnostic">
+              Diagnostic Labs
+            </button>
+          </li>
+
+          <li class="nav-item">
+            <button class="nav-link tech" data-bs-toggle="tab" data-bs-target="#rooms">
+              Patient Rooms
+            </button>
+          </li>
+
+          <li class="nav-item">
+            <button class="nav-link tech" data-bs-toggle="tab" data-bs-target="#hygiene">
+              Hygiene & Safety Standards
+            </button>
+          </li>
+
+        </ul>
+              <div class="tab-content mt-3">
+
+  <div class="tab-pane fade show active" id="operation">
+    <div class="owl-carousel center-slider-2">
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+    </div>
+  </div>
+
+  <div class="tab-pane fade" id="icu">
+    <div class="owl-carousel center-slider-2">
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+    </div>
+  </div>
+
+  <div class="tab-pane fade" id="diagnostic">
+    <div class="owl-carousel center-slider-2">
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+    </div>
+  </div>
+
+  <div class="tab-pane fade" id="rooms">
+    <div class="owl-carousel center-slider-2">
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+    </div>
+  </div>
+
+  <div class="tab-pane fade" id="hygiene">
+    <div class="owl-carousel center-slider-2">
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+      <div class="item"><img src="image 7.png"></div>
+      <div class="item"><img src="image 9.png"></div>
+    </div>
+  </div>
+
+</div>
+        </section>
+        <section class="Tumor-Board">
+            <div class="Tumor-Board-text"><h4>International Tumor Board</h4><br><p>At American Oncology Institute, a team of expert oncologists and faculty from top US Hospitals collaborate to<br> review and discuss complex cancer cases.</p>
+                <div class="container">
+                 <div class="tumor-box">
+                    <div class="tumor-content"><img src="ppl1.png" class="img-fluid">
+                    <div class="tumor-content-text">
+                        <h5>Multidisciplinary Approach</h5>
+                        <p>The tumor board includes specialists from various disciplines, such as medical oncology, radiation oncology, surgical oncology, pathology, radiology, and other relevant fields. This ensures that all aspects of a patient's care are considered.</p>
+                    </div>
+                </div>
+                    <div class="tumor-content"><img src="ppl2.png" class="img-fluid">
+                    <div class="tumor-content-text">
+                        <h5>International Faculty</h5>
+                        <p>The board members comprise of eminent faculty from UPMC, bringing diverse perspectives and expertise to the discussion.</p>
+                    </div>
+                    </div>
+                    <div class="tumor-content"><img src="ppl3.png" class="img-fluid">
+                    <div class="tumor-content-text">
+                        <h5>Virtual Collaboration</h5>
+                        <p>Meetings of an international tumor board are often conducted virtually, allowing experts from different locations to participate without the need for travel.</p>
+                    </div>
+                    </div>
+                    <div class="tumor-content"><img src="ppl4.png" class="img-fluid">
+                    <div class="tumor-content-text">
+                        <h5>Case Presentation and Discussion</h5>
+                        <p>Patient's case, including relevant clinical information, imaging studies, pathology results, and treatment history is presented to the board. The board then discusses the case and provides recommendations on the treatment of the patient.</p>
+                    </div>
+                    </div>
+                    <div class="tumor-content"><img src="ppl5.png" class="img-fluid">
+                    <div class="tumor-content-text">
+                        <h5>Treatment Recommendations</h5>
+                        <p>The international tumor board provides recommendations on the optimal treatment approach for the patient, considering the latest evidence-based guidelines, available treatment options, and the patient's preferences and values.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <section id="our-patient-stories"class="patient-stories">
+  <div class="container">
+    
+    <div class="patient-story-text text-center mb-4">
+      <h5>Patient Stories</h5>
+    </div>
+
+    <div class="owl-carousel patient-slider">
+
+      <div class="item">
+        <div class="patient-card">
+          <img src="patient1.png" class="img-fluid">
+          <p>Patient’s word of appreciation | Pancreatic Cancer Treatment</p>
+<div class="play-icon">
+  <button class="patient-video-btn" data-video="pPR8kUhvxyA">
+    <img src="play1.png" class="img-fluid">
+  </button>
+</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="patient-card">
+          <img src="patient1.png" class="img-fluid">
+          <p>Patient’s word of appreciation | Pancreatic Cancer Treatment</p>
+<div class="play-icon">
+  <button class="patient-video-btn" data-video="pPR8kUhvxyA">
+    <img src="play1.png" class="img-fluid">
+  </button>
+</div>
+        </div>
+      </div>      <div class="item">
+        <div class="patient-card">
+          <img src="patient1.png" class="img-fluid">
+          <p>Patient’s word of appreciation | Pancreatic Cancer Treatment</p>
+<div class="play-icon">
+  <button class="patient-video-btn" data-video="pPR8kUhvxyA">
+    <img src="play1.png" class="img-fluid">
+  </button>
+</div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="patient-card">
+          <img src="patient1.png" class="img-fluid">
+          <p>Patient’s word of appreciation | Pancreatic Cancer Treatment</p>
+<div class="play-icon">
+  <button class="patient-video-btn" data-video="pPR8kUhvxyA">
+    <img src="play1.png" class="img-fluid">
+  </button>
+</div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="patient-card">
+          <img src="patient1.png" class="img-fluid">
+          <p>Patient’s word of appreciation | Pancreatic Cancer Treatment</p>
+<div class="play-icon">
+  <button class="patient-video-btn" data-video="pPR8kUhvxyA">
+    <img src="play1.png" class="img-fluid">
+  </button>
+</div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="patient-card">
+          <img src="patient1.png" class="img-fluid">
+          <p>Patient’s word of appreciation | Pancreatic Cancer Treatment</p>
+<div class="play-icon">
+  <button class="patient-video-btn" data-video="pPR8kUhvxyA">
+    <img src="play1.png" class="img-fluid">
+  </button>
+</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+        <section id="why-aoi"class="why-second-opinion">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div  class="col-md-6">
+                    <div class="why-second-opinion-text"><h5>Why Second Opinion?</h5>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters<br><br>
+                As opposed to using 'Content here, content here', making it look like readable English. he point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p></div>
+                    </div>
+                    <div  class="col-md-6">
+                        <img src="why-image.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row sub-content">
+                    <div class="col-md-3">
+                        <div class="sec-op-te-img"><div class="second-opinion"><img src="second-opinion-2.png" class="img-fluid"></div>
+                            <div class="sub-opinion-text"><h5>Advanced Technology</h5><p>Cutting-edge tools for precise treatment.</p></div></div></div>
+                    <div class="col-md-3">
+                        <div class="sec-op-te-img"><div class="second-opinion"><img src="second-opinion-2.png" class="img-fluid"></div>
+                            <div class="sub-opinion-text"><h5>Advanced Technology</h5><p>Cutting-edge tools for precise treatment.</p></div></div></div>
+                    <div class="col-md-3">
+                        <div class="sec-op-te-img"><div class="second-opinion"><img src="second-opinion-2.png" class="img-fluid"></div>
+                            <div class="sub-opinion-text"><h5>Advanced Technology</h5><p>Cutting-edge tools for precise treatment.</p></div></div></div>
+                    <div class="col-md-3">
+                        <div class="sec-op-te-img"><div class="second-opinion"><img src="second-opinion-2.png" class="img-fluid"></div>
+                            <div class="sub-opinion-text"><h5>Advanced Technology</h5><p>Cutting-edge tools for precise treatment.</p></div></div></div>
+                </div>
+            </div></section>
+            <section class="cancer-care">
+                     <div class="container">
+                <div class="row ">
+                    <div  class="col-md-6">
+                    <div class="cancer-care-text">
+                <p>American Oncology Institute is a leading cancer care provider across South Asia. It operates a chain of cancer hospitals in multiple cities across India and South Asia. </p>
+                <div class="counters">
+<div class="counter-text"> <h3><span class="counter" data-target="5000">0</span>+</h3>
+<p>Happy Patients</p></div>
+
+<div class="counter-text"><h3><span class="counter" data-target="60">0</span>+</h3>
+<p>Specialist Doctor</p></div></div>
+                <button href="#" class="second-opinion-button">Get Second Opinion</button>
+                    </div></div>
+                    <div  class="col-md-6">
+                        <img src="doctor-patient.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section class="contact-us">
+                <div class="contact-us-text"><h5>Contact us today to schedule your Video consultation.</h5><p>Remember, you are not alone. Apollo Hospitals is here to provide you with the knowledge, support, and <br>confidence you deserve to make informed decisions about your health.</p></div>
+                <button href="#" class="contact-us-button">Video-Consultation</button>
+            </section>
+            <section id="our-faq"class="faq">
+                <div class="faq-text">
+                    <h5>Frequently Asked Questions</h5>
+                    <div class="accordion" id="accordionExample">
+
+  <!-- Item 1 -->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+      Why Choose American Oncology Institute?
+      <img src="faq.png" class="icon-plus">
+      <img src="faq-.png" class="icon-minus">
+    </button>
+  </h2>
+
+  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      At American Oncology Institute (AOI), we deliver exceptional cancer care with advanced treatment options and compassionate support. As a comprehensive
+      care network, AOI provides access to specialized services and expert oncologists, ensuring coordinated care across locations. Our precision oncology tailors
+      treatments to each patient's genetic profile, enhancing success and minimizing side effects. We offer advanced chemotherapy, targeted therapy,
+      immunotherapy, and cutting-edge radiotherapy services. Choose AOI for innovative, personalized cancer care.
+    </div>
+  </div>
+</div>
+
+  <!-- Item 2 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+        Why Choose American Oncology Institute?
+        <img src="faq.png" class="icon-plus">
+      <img src="faq-.png" class="icon-minus">
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         At American Oncology Institute (AOI), we deliver exceptional cancer care with advanced treatment options and compassionate support. As a comprehensive
+care network, AOI provides access to specialized services and expert oncologists, ensuring coordinated care across locations. Our precision oncology tailors
+treatments to each patient's genetic profile, enhancing success and minimizing side effects. We offer advanced chemotherapy, targeted therapy,
+immunotherapy, and cutting-edge radiotherapy services. Choose AOI for innovative, personalized cancer care.
+      </div>
+    </div>
+  </div>
+ <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+        Why Choose American Oncology Institute?
+        <img src="faq.png" class="icon-plus">
+      <img src="faq-.png" class="icon-minus">
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         At American Oncology Institute (AOI), we deliver exceptional cancer care with advanced treatment options and compassionate support. As a comprehensive
+care network, AOI provides access to specialized services and expert oncologists, ensuring coordinated care across locations. Our precision oncology tailors
+treatments to each patient's genetic profile, enhancing success and minimizing side effects. We offer advanced chemotherapy, targeted therapy,
+immunotherapy, and cutting-edge radiotherapy services. Choose AOI for innovative, personalized cancer care.
+      </div>
+    </div>
+  </div>
+ <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour">
+        Why Choose American Oncology Institute?
+        <img src="faq.png" class="icon-plus">
+      <img src="faq-.png" class="icon-minus">
+      </button>
+    </h2>
+    <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         At American Oncology Institute (AOI), we deliver exceptional cancer care with advanced treatment options and compassionate support. As a comprehensive
+care network, AOI provides access to specialized services and expert oncologists, ensuring coordinated care across locations. Our precision oncology tailors
+treatments to each patient's genetic profile, enhancing success and minimizing side effects. We offer advanced chemotherapy, targeted therapy,
+immunotherapy, and cutting-edge radiotherapy services. Choose AOI for innovative, personalized cancer care.
+      </div>
+    </div>
+  </div>
+ <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive">
+        Why Choose American Oncology Institute?
+        <img src="faq.png" class="icon-plus">
+      <img src="faq-.png" class="icon-minus">
+      </button>
+    </h2>
+    <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         At American Oncology Institute (AOI), we deliver exceptional cancer care with advanced treatment options and compassionate support. As a comprehensive
+care network, AOI provides access to specialized services and expert oncologists, ensuring coordinated care across locations. Our precision oncology tailors
+treatments to each patient's genetic profile, enhancing success and minimizing side effects. We offer advanced chemotherapy, targeted therapy,
+immunotherapy, and cutting-edge radiotherapy services. Choose AOI for innovative, personalized cancer care.
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</section>
+<section class="health-library">
+        <div class="health-library-text">AOI Health Library</div>
+       
+        <div class="container">
+      <div class="row ">
+        <div class="owl-carousel technalogy">
+        
+                    <div class="slide">
+                        <div class="second-opinion"><img src="second-opinion-2.png" class="img-fluid">
+                            <div class="sub-opinion-text"><a href="#">Who Is More Likely to Develop Salivary Gland Cancer?...</a><p>Cutting-edge tools for precise treatment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="second-opinion"><img src="second-opinion-2.png" class="img-fluid">
+                            <div class="sub-opinion-text"><a href="#">Who Is More Likely to Develop Salivary Gland Cancer?...</a><p>Cutting-edge tools for precise treatment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="second-opinion"><img src="second-opinion-2.png" class="img-fluid">
+                            <div class="sub-opinion-text"><a href="#">Who Is More Likely to Develop Salivary Gland Cancer?...</a><p>Cutting-edge tools for precise treatment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="second-opinion"><img src="second-opinion-2.png" class="img-fluid">
+                            <div class="sub-opinion-text"><a href="#">Who Is More Likely to Develop Salivary Gland Cancer?...</a><p>Cutting-edge tools for precise treatment.</p>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+    <section id="our-gallery"class="gallery-section">
+        <div class="container">
+    <h2>AOI Gallery</h2>
+
+    <div class="owl-carousel gallery-slider">
+
+        <div class="item"><div class="card"></div></div>
+        <div class="item"><div class="card"></div></div>
+        <div class="item"><div class="card"></div></div>
+        <div class="item"><div class="card"></div></div>
+        <div class="item"><div class="card"></div></div>
+    </div>
+    </div>
+</section>
+<section class="Our-Hospitals">
+    <h2>Our Hospitals</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class ="our-hospital-content"><img src="dooo.jpg" class="img-fluid"><h3>Jammu, Jammu & Kashmir</h3><div class ="our-hospital-content-link"><a href="#">Book an Appointment</a><a href="#">Know more</a>
+                </div>
+            </div>
+        </div>
+            <div class="col-md-4"><div class ="our-hospital-content"><img src="dooo.jpg" class="img-fluid"><h3>Jammu, Jammu & Kashmir</h3><div class ="our-hospital-content-link"><a href="#">Book an Appointment</a><a href="#">Know more</a></div>
+        </div>
+    </div>
+            <div class="col-md-4"><div class ="our-hospital-content"><img src="dooo.jpg" class="img-fluid"><h3>Jammu, Jammu & Kashmir</h3><div class ="our-hospital-content-link"><a href="#">Book an Appointment</a><a href="#">Know more</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</section>    
+<section class="personalized-session">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-6"><h3>Get a  Personalized Video Session</h3><p>Please fill in the form and submit the details <br> request a  Call back</p>
+<div class="qr-img">
+  <div class="qr-item">
+    <p>
+      <span><img src="qr.png" class="img-fluid"></span>
+      Scan to get a <br>second opinion
+    </p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="qr-item">
+    <p>
+      <span><img src="qr.png" class="img-fluid"></span>
+      Get a  Personalized<br> Video Session
+    </p>
+  </div>
+</div>
+            </div>
+            <div class=" col-md-6"><div class="personalized-session-img"><img src ="mobile-image.png" class= "img-fluid"></div></div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+    <div  class="row">
+        <div class="col-md-3">
+
+        <div class="foter-logo"><img src="logo22.png" class="img-fluid  " >
+        </div></div>
+        <div class="col-md-3">
+            <div class="fotter-icon-text"><div class="follow-us-text">Follow us
+            </div>
+                <div class="footter-icons">
+            <a href="#"><img src="fb.svg" class="img-fluid  "></a>
+            <a href="#"><img src="insta.svg" class="img-fluid  "></a>
+            <a href="#"><img src="youtube.svg" class="img-fluid  "></a>
+            <a href="#"><img src="insta.svg" class="img-fluid  "></a>
+            <a href="#"><img src="twitter.svg" class="img-fluid  "></a>
+        </div>
+    </div></div>
+        <div class="col-md-3">
+            <div class="alligned"><img src="phone-img.png">
+                <div class="last-text"><p>24/7 Call Center</p><h3><a href="tel:1800 208 2000">1800 208 2000</a></h3></div>
+
+        </div>
+    </div>
+        <div class="col-md-3">
+            <div class="alligned"><img src="whatsapp.png">
+                <div class="last-text"><p>24/7 Call Center</p><h3><a href="https://wa.me/917331191919" target="_blank">+91 73311 91919</a></h3></div>
+
+        </div>
+    </div>
+</div></div>
+<div class="disclaminer">
+    <hr>
+    <div><h3><b>Disclaimer :</b> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </h3><p>American Oncology Institute  Copyright 2025. All rights reserved.</p></div></div>
+</section>
+<div id="modal" class="modal " >
+
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>Get a Second Opinion</h2>
+    <p>Please fill in the form and submit the details to request a call back</p>
+
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Phone no.">
+
+    <div class="file-upload">
+      <label>Upload your report</label>
+      <input type="file" hidden>
+      <button class="on-click-button" onclick="document.getElementById('reportUpload').click()">
+                    Choose file</button>
+    </div>
+
+    <input type="text" placeholder="Message">
+
+    <label class="checkbox">
+      <input type="checkbox"> I agree to the terms and conditions
+    </label>
+
+    <button class="submit-btn">Submit</button>
+
+  
+
+  </div>
+
+</div>
+
+<div class="get-a-vid-cons" id="get-a-vid-cons">
+
+  <div class="get-a-vid-cons__box">
+        <span class="close" onclick="closeVideoModal()">&times;</span>
+    <h2>Get a Video Consultation</h2>
+    <p>Please fill in the form and submit the<br> details to request a call back</p>
+
+    <div class="get-a-vid-cons__row">
+      <div class="get-a-vid-cons__group">
+        <input type="text" placeholder="Name">
+      </div>
+      <div class="get-a-vid-cons__group">
+        <input type="text" placeholder="Phone Number">
+      </div>
+    </div>
+
+    <div class="get-a-vid-cons__row">
+      <div class="get-a-vid-cons__group">
+        <input type="email" placeholder="Email ID">
+      </div>
+      <div class="get-a-vid-cons__group mobile-border">
+        <button class="get-a-vid-cons__upload">Upload Report</button>
+      </div>
+    </div>
+
+    <div class="get-a-vid-cons__row">
+<div class="get-a-vid-cons__group">
+  <input type="text" id="date" placeholder="Book your Slot">
+</div>
+      <div class="get-a-vid-cons__group">
+        <select>
+          <option>Select Doctor</option>
+        </select>
+      </div>
+    </div>
+
+    <label class="get-a-vid-cons__checkbox">
+      <input type="checkbox" id="checkbox">
+      I agree to the terms and conditions
+    </label>
+
+    <button class="get-a-vid-cons__submit">Submit</button>
+
+  </div>
+</div>
+
+<div id="patientModal" class="patient-modal">
+  <div class="patient-modal-content">
+    <span class="patient-close">&times;</span>
+    <iframe id="patientFrame" src="" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+$(document).ready(function(){
+
+  /* =======================
+     CENTER SLIDER
+  ======================= */
+  if ($('.center-slider-2').length) {
+  $('.center-slider-2').owlCarousel({
+    loop: true,
+    margin: 0,
+    center: true,
+    dots: true,
+    nav: false,
+    stagePadding: 130, // ✅ fixed
+   responsive: {
+  0: { 
+    items: 1,
+    stagePadding: 20
+  },
+  768: { 
+    items: 2.2,
+    stagePadding: 130
+  }
+}
+  });
+}
+
+  /* =======================
+     HEALTH LIBRARY SLIDER
+  ======================= */
+  if ($('.technalogy').length) {
+    $('.technalogy').owlCarousel({
+      loop: true,
+      margin: 20,
+      dots: false,
+      nav: true,
+      navText: [
+  '<img src="arrow-l.png" class="nav-arrow left">',
+  '<img src="arrow-r.png" class="nav-arrow right">'
+],
+      responsive: {
+        0: { items: 1 },
+        768: { items: 3 }
+      }
+    });
+  }
+
+  /* =======================
+     GALLERY SLIDER
+  ======================= */
+  if ($('.gallery-slider').length) {
+    $('.gallery-slider').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+            navText: [
+  '<img src="black-arrow-l.png" class="nav-arrow left">',
+  '<img src="black-arrow-r.png" class="nav-arrow right">'
+],
+      responsive:{
+        0:{ items:1 },
+        600:{ items:2 },
+        1000:{ items:3 }
+      }
+    });
+  }
+
+  /* =======================
+     PATIENT SLIDER
+  ======================= */
+  if ($('.patient-slider').length) {
+    $('.patient-slider').owlCarousel({
+      loop: true,
+      margin: 0,
+      center: true,
+      dots: true,
+      nav: false,
+      slideBy: 1,
+      responsive: {
+        0: { items: 1 },
+        768: { items: 3 },
+        1000: { items: 3 }
+      }
+    });
+  }
+
+});
+
+
+/* =======================
+   ACCORDION ICON TOGGLE
+======================= */
+const accordions = document.querySelectorAll('.accordion-collapse');
+
+accordions.forEach(collapse => {
+
+  collapse.addEventListener('show.bs.collapse', function () {
+    const button = document.querySelector(`[data-bs-target="#${this.id}"]`);
+    const icon = button.querySelector('.icon');
+
+    icon.classList.remove('bi-plus');
+    icon.classList.add('bi-dash');
+  });
+
+  collapse.addEventListener('hide.bs.collapse', function () {
+    const button = document.querySelector(`[data-bs-target="#${this.id}"]`);
+    const icon = button.querySelector('.icon');
+
+    icon.classList.remove('bi-dash');
+    icon.classList.add('bi-plus');
+  });
+
+});
+
+
+/* =======================
+   COUNTER ANIMATION
+======================= */
+const counters = document.querySelectorAll('.counter');
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+
+      const counter = entry.target;
+      const target = +counter.getAttribute('data-target');
+
+      let count = 0;
+
+      const updateCount = () => {
+        const increment = target / 100;
+
+        if (count < target) {
+          count += increment;
+          counter.innerText = Math.ceil(count);
+          setTimeout(updateCount, 20);
+        } else {
+          counter.innerText = target;
+        }
+      };
+
+      updateCount();
+      observer.unobserve(counter);
+    }
+  });
+}, { threshold: 0.5 });
+
+counters.forEach(counter => {
+  observer.observe(counter);
+});
+</script>
+<script>
+function openModal() {
+    document.getElementById("modal").style.display = "flex";
+    document.body.style.overflow = "hidden"; // STOP SCROLL
+}
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+    document.body.style.overflow = "auto"; // ENABLE SCROLL
+}
+
+/* Close on outside click */
+window.onclick = function(e) {
+    let modal = document.getElementById("modal");
+    if (e.target === modal) {
+        closeModal(); // IMPORTANT: use function
+    }
+}
+
+document.getElementById("modal").addEventListener("click", function(e) {
+    if (!e.target.closest(".modal-content")) {
+        closeModal(); // already correct
+    }
+});
+</script>
+<script>
+function openVideoModal() {
+    document.getElementById("get-a-vid-cons").style.display = "flex";
+    document.body.style.overflow = "hidden"; // STOP SCROLL
+}
+
+function closeVideoModal() {
+    document.getElementById("get-a-vid-cons").style.display = "none";
+    document.body.style.overflow = "auto"; // ENABLE SCROLL
+}
+
+/* Close on outside click */
+window.onclick = function(e) {
+    let modal = document.getElementById("get-a-vid-cons");
+    if (e.target === modal) {
+        closeVideoModal(); // IMPORTANT
+    }
+}
+</script>
+<!-- for the video play  -->
+<script>
+const video = document.getElementById("scrollVideo");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
+}, {
+  threshold: 0.5
+});
+
+observer.observe(video);
+</script>
+<!-- toggle menu for mobile -->
+<script>function toggleMenu() {
+    document.getElementById("mobileMenu").classList.toggle("active");
+    document.addEventListener("click", function(e) {
+    let menu = document.getElementById("mobileMenu");
+    let btn = document.getElementById("head-mobile-view");
+
+    if (!menu.contains(e.target) && !btn.contains(e.target)) {
+        menu.classList.remove("active");
+    }
+});
+}</script>
+<script>
+const modal = document.getElementById("patientModal");
+const iframe = document.getElementById("patientFrame");
+const closeBtn = document.querySelector(".patient-close");
+
+// Open modal
+document.querySelectorAll(".patient-video-btn").forEach(btn => {
+  btn.addEventListener("click", function () {
+    const videoId = this.getAttribute("data-video");
+
+    // SET VIDEO
+    iframe.src = `https://www.youtube.com/embed/${videoId}?rel=0`;
+
+    // SHOW MODAL (THIS WAS MISSING ❗)
+    modal.style.display = "flex";
+
+    // STOP BACKGROUND SCROLL
+    document.body.classList.add("patient-no-scroll");
+  });
+});
+
+// Close modal
+function closePatientModal() {
+  modal.style.display = "none";
+
+  // STOP VIDEO + SOUND
+  iframe.src = "";
+
+  document.body.classList.remove("patient-no-scroll");
+}
+
+// Close button
+closeBtn.addEventListener("click", closePatientModal);
+
+// Click outside to close
+window.addEventListener("click", function (e) {
+  if (e.target === modal) {
+    closePatientModal();
+  }
+});
+</script>
+<script>flatpickr("#date", {
+  dateFormat: "d-m-Y"
+});</script>
+</body>
+</html>

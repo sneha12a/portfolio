@@ -1,0 +1,2243 @@
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.logo{
+	padding:0px 0px 0px 0px;
+}
+button{
+    transition: all .2s ease;
+}
+button:hover {
+    transform: scale(1.03);
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('fonts/gothammedium-webfont.woff2') format('woff2'),
+         url('fonts/gothammedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham-Bolt';
+    src: url('fonts/gothambold-webfont.woff2') format('woff2'),
+         url('fonts/gothambold-webfont.woff') format('woff');
+    font-weight: 700;}
+    @font-face {
+    font-family: 'Gotham-Ultra';
+    src: url('fonts/gotham_ultra-webfont.woff2') format('woff2'),
+         url('fonts/gotham_ultra-webfont.woff') format('woff');
+    font-weight: 700;}
+    @font-face {
+    font-family: 'Gotham-Book';
+    src: url('fonts/gothambook-webfont.woff2') format('woff2'),
+         url('fonts/gothambook-webfont.woff') format('woff');
+    font-weight: 700;}
+body {
+    font-family: 'Gotham-Book', sans-serif ;
+}
+
+.container{max-width: 1168px}
+.head{max-width: 1168px; margin: 0 auto;}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    background-color: transparent;
+}
+.Language-box {
+    border: 1px solid orange;
+    display: inline-block;
+    border-radius: 16px;
+    padding:8px 10px;
+    align-items: center;
+}
+section {
+  scroll-margin-top: 80px; /* same as your header height */
+}
+#our-faq{
+    scroll-margin-top: 130px;
+}
+#our-patient-stories {
+  scroll-margin-top: 130px; /* same as your header height */
+}
+.Language-box img {
+    width: 24px;
+    height: 24px;
+}
+.location-box{
+    border: 1px solid orange;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 8px 10px;
+    align-items: center;	
+}
+.Location-box img {
+    width: 24px;
+    height: 24px;
+}
+.phone-box h4 {
+    margin-bottom: 0;
+    color: #FF6820;
+    font-size: 14px;
+    margin-top: 0px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.phone-box {
+    display: inline-flex;
+    gap: 10px;
+}
+.phone-box img{
+	width:35px;
+
+}
+.phone-box a {
+    text-decoration: none;
+    color: black;
+}
+select:focus-visible {
+    outline: 0;
+}
+.language-select,
+.location-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.language-select, .location-select {
+    background-image: url("arrow-down.png");
+    background-repeat: no-repeat;
+    background-position: right 1px center;
+    background-size: 14px;
+    padding: 0px 20px 0px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.second h3 {
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 7px;
+    font-family: 'Gotham-Bolt';
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    
+    padding: 0px 0px;
+    font-size: 13px;
+    border: 1px solid #046A38;
+    transition: transform 0.3s ease;
+    transform: scale(1.03);
+}
+.second p {
+    font-size: 14px;
+}
+header {
+    display: flex;
+    margin: 16px 50px;
+}
+.logo {
+    padding: 0px 0px 0px 0px;
+    margin-right: 265px;
+} 
+.right-menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.phone-box h4 span {
+    color: #000;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 700;
+}
+#get-option {
+    background-color: #046A38;
+    color: white;
+    padding: 14px 19px;
+    font-weight: 500;
+    border-radius: 15px;
+    line-height: 100%;
+    font-size: 16px;
+}
+#get-option:hover  {
+  transform: scale(1.03);
+}
+.nav-elements a{
+	text-decoration:none;
+	color:white;
+    font-size: 16px;
+    font-weight: 325;
+    line-height: 100%;
+
+}
+nav {
+    background-color: #FF6820;
+    margin:10px 0px 0px 0px;
+}
+.nav-elements{
+	padding:10px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/*.announcement {
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 5px;
+    color: #8B0B04;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    top: 130px;
+}*/
+.announcement {
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 5px;
+    color: #8B0B04;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    z-index: 9;
+    top: 130px;
+}
+.announcement-text p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.announcement-text {
+    display: inline-block;
+    
+    padding-left: 100%;
+    animation: scrollText 25s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.star-icon {
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+img.img-fluid.star-icon {
+    width: 15px;
+    height: 15px;
+}
+/*.main{
+    position:relative;
+}*/
+.announcment {
+    position: absolute;
+}
+.main-text {
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    height: 122px;
+}
+.main-text h4 {
+    font-size: 40px;
+    font-weight: 325;
+    line-height: 100%;
+        font-family: 'Gotham-Book';
+}
+p, li{font-family: 'Gotham-Book';}
+.main-text h3 {
+    font-size: 40px;
+    font-weight: 450;
+    line-height: 100%;font-family: Gotham-Ultra;
+}
+
+.main-text p {
+    font-size: 15px;
+    font-weight: 325;
+    line-height: 100%;
+    padding-top: 11px;
+}
+.main video {
+    width: 100%;
+    display: block;
+    height: 519px;
+    object-fit: cover; /* image jaisa crop & fill */
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.2));
+}
+.main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 646px; /* same as video */
+    background: rgba(0,0,0,0.5);
+    pointer-events: none; /* important */
+}.main-box {
+    position: absolute;
+    top: 474px;
+    left: 8%;
+    width: 1089px;
+    height: 152px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 10;
+}
+input.form-control1 {
+    border: 1px solid #D0D0D0;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+input.form-control1::placeholder{color: #D0D0D0}
+.input {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    margin: 0px 20px;
+}
+.doc-text-image {
+    border-radius: 20px;
+    overflow: hidden;
+}
+button.upload {
+    background-color: #FF6820;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 26px;
+    min-width: fit-content;
+    font-size: 10px;
+    line-height: 12px;
+
+}
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+button.submit {
+    background-color: #046A38;
+    line-height: 100%;
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+section.Techno {
+    margin-top: 70px;
+    padding: 0px;
+
+}
+.boo {
+    display: flex;
+    flex: 0 0 auto;
+    background-color: #FFE5D9;
+    border-radius: 20px;
+    padding: 20px 16px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boo h3 {
+  transition: transform 0.3s ease;
+}
+
+.boo:hover h3 {
+  transform: scale(1.1);
+}
+.techno-item h3 {
+    color: #FF8637;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 100%;
+}
+.boo p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+section.docs {
+    background-color: #FF6820;
+    margin-top: 70px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.doc-text {
+    text-align: center;
+    color: white;
+}
+.doc-text h3 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 100%;
+    font-family: Gotham-Medium;
+}
+.doc-text p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 100%;
+    padding: 0px 0px 20px 0px;
+}
+.doctors-text {
+    background-color: white;
+    padding: 10px 15px;
+}
+.doctors-text p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    font-family: 'Gotham-Bolt';
+}
+.doctors-text h3 {
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    font-weight: 325;
+    padding: 3px;
+}
+.doctors-text button {
+    border-radius: 15px;
+    /* text-align: center; */
+    background-color: #046A38;
+    padding: 7.92px 5.28px;
+    gap: 5.28;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    height: 42px;
+    font-size: 11px;
+}
+.second-opinion-text {
+    text-align: center;
+    padding-top: 40px;
+}
+.second-opinion-text h3 {
+    color: #FF8637;
+    font-size: 40px;
+    font-weight: 350;
+    font-style: Gotham;
+    line-height: 100%;
+}
+.second-opinion p {
+    line-height: 140%;
+    font-size: 18px;
+    font-weight: 325;
+}
+.steps {
+    display: flex;
+    gap: 10px;
+    background-color: #DEFFEF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.steps h5 span {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    line-height: 18px;
+}
+.steps h5 span {
+    font-size: 14px;
+    color: #000;
+    font-family: 'Gotham-Book';
+    font-weight: 400;
+}
+.sec-form {
+    background-color: #FFF9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    margin: 19px;
+    padding: 28px 20px;
+    border-radius: 20px;
+}
+.steps h5 {
+    color: #046A38;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Gotham-Bolt';
+}
+section.second-opinion {
+    margin: 40px 0px 50px 0px;
+}
+.form-element {
+    border: 1px solid #D0D0D0;
+    /* gap: 20px; */
+    border-radius: 10px;
+    padding: 5px 20px;
+    width: 50%;
+    height: 42px;
+}
+input.form-element::placeholder{color: #000000}
+.sec-form  div{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+button.upload-report{
+    background-color: #FF6820;
+    color: white;
+    padding: 0px 10px;
+}
+a.agree {
+    color: black;
+}
+section.video-session {
+    background-color: #FF6820;
+    color: white;
+    padding: 60px 0px;
+}
+.video-session-text h2 {
+    font-size: 40px;
+    font-weight: 325;
+}
+.video-session-colum {
+    display: flex;
+    padding: 10px 25px;
+    gap: 20px;
+}
+.video-session-colum p {
+    font-size: 18px;
+    font-weight: 350;
+}
+.video-session-colum span {
+    font-size: 14px;
+    font-weight: 300;
+}
+.video-session-colum span {
+    font-weight: 300;
+}
+
+img.img-fluid.join {
+    height: 100%;
+    margin: 0px -10px;
+}
+button.video-session-button {
+    background-color: white;
+    color: #ff6820;
+    padding: 12px 21px;
+    font-size: 18px;
+    border-radius: 11px;
+    margin: 46px 0px 0px 0px;
+    font-weight: 700;
+    line-height: 25px;
+}
+h2.cancer-treated {
+    color: #ff6820;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 350;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 100%;
+    padding: 28px 0px;
+}
+
+ul#myTab {
+    display: flex;
+    justify-content: center;
+    border: 0;
+    gap: 25px;
+    padding: 0px 0px 60px 0px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color: var(--bs-nav-tabs-link-active-bg);
+    /* border-color: var(--bs-nav-tabs-link-active-border-color); */
+    border-radius: 15px;
+    background-color: #046a38;
+    width: 212px;
+    height: 42px;
+}
+.nav-tabs .nav-link {
+    border: 1px solid #046a38;
+    border-radius: 15px;
+    width: 174px;
+    height: 42px;
+    color: #046A38;
+    font-size: 16px;
+    padding: 0px 0px;
+}
+.cancer-img-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.cancer-img-content p {
+    font-weight: 350;
+    line-height: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 19px;
+}
+.row.justify-content-center {
+    gap: 19px;
+}
+.our-tpa {
+    background-color: #FF6820;
+    color: white;
+    padding: 50px 0px;
+    margin: 50px 0px;
+    text-align: center;
+}
+.video-session-text2 {
+    text-align: center;
+    padding: 0px 0px 43px 0px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.video-session-text2 h2 {
+    font-size: 40px;
+    font-weight: 350;
+    font-family: 'Gotham-Medium';
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 0;
+}
+.our-tpa a {
+    color: white;
+    text-decoration: none;
+}
+div#myTabContent a {
+    text-decoration: none;
+    color: black;
+}
+.cancer-img-content img{
+    transition: 500ms;
+    border-radius: 50px;
+}
+
+.cancer-img-content:hover img{
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.technology-infra-text h4 {
+    text-align: center;
+    color: #FF8637;
+    font-weight: 350;
+    line-height: 100%;
+    font-size: 40px;
+    padding: 0px 0px 30px 0px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #ccc;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #28a745; /* green active dot */
+}
+.center-slider-2 .item {
+    transition: all 0.3s ease;
+    /*transform: scale(0.8);*/
+    /*opacity: 0.5;*/
+}
+
+.center-slider-2 .owl-item.center .item {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.center-slider-2 img {
+    width: 100%;
+    border-radius: 15px;
+}
+button.nav-link.tech:hover {
+    width: 212px;
+    padding: 0px 0px;
+    font-size: 13px;
+    border: 1px solid #046A38;
+    transition: transform 0.4s ease;
+    transform: scale(1.03);
+}
+section.technology-infra .owl-dots {
+        margin-top: 20px;
+}
+
+/* dots styling */
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dot span {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.owl-dot.active span {
+    background: #ff6820;
+}
+ul.nav.nav-tabs.tech {
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0px 0px 44px 0px;
+}
+button.nav-link.tech {
+    width: 212px;
+    padding: 0px 0px;
+    font-size: 13px;
+    border: 1px solid #046A38;
+    font-family: Gotham-Bolt;
+}
+section.Tumor-Board {
+    background-color: #ff6820;
+    color: white;
+}
+.Tumor-Board-text h4 {
+    text-align: center;
+/*    width: 871px;
+    font-weight: 350;*/
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.Tumor-Board-text p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 325;
+}
+.tumor-content img {
+    height: 214px;
+    width: 372px;
+}
+.tumor-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+
+}
+.tumor-content-text h5 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+}
+.tumor-content-text {
+    background-color: white;
+    color: #046A38;
+    text-align: left;
+    border-radius: 0px 0px 20px 20px;
+    padding: 11px;
+    min-height: 180px;
+}
+.tumor-content-text p {
+    text-align: left;
+    color: black;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0;
+    font-family: 'Gotham-Book';
+}
+.Tumor-Board-text h4 {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 35px;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 100%;
+}
+.tumor-content {
+    width: 32%;
+}
+.tumor-box {
+    display: flex;
+    /*grid-template-columns: 33% 33% 33%;*/
+    gap: 20px;
+    padding: 0px 0px 38px 0px;
+    justify-content: center;
+    /* text-align: center; */
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top:31px;
+}
+.tumor-content {
+    width: 32%;
+}
+.patient-story-text h5 {
+    color: #FF8637;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+    font-weight: 350;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.item {
+    position: relative;
+}
+.play-icon {
+    position: absolute;
+    top: 105px;
+    left: 166px;
+}
+section.why-second-opinion {
+    background-color: #FF6820;
+    margin: 40px 0px 0px 0px;
+    padding: 40px 0px 40px 0px;
+    color: white;
+}
+.row.sub-content {
+    padding: 50px 0px 0px 0px;
+}
+.sub-opinion-text {
+    background-color: white;
+    color: black;
+    padding: 20px 5px 10px 10px;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+}
+.sub-opinion-text h5 {
+    color: #ff6820;
+}
+.why-second-opinion-text h5 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 0px 0px 20px 0px;
+}
+
+.why-second-opinion-text p {
+    font-size: 18px;
+    font-weight: 325;
+    line-height: 140%;
+}
+.counters {
+    display: flex;
+    gap: 68px;
+    list-style: none;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.counter-text h3 {
+    font-size: 35px;
+    color: #ff6820;
+    padding-top: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+button.second-opinion-button {
+    background-color: #046A38;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 80px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    /* margin-left: 27px; */
+    line-height: 25px;
+    width: 373px;
+}
+section.contact-us {
+    text-align: center;
+    background-color: #FF6820;
+    color: white;
+    margin: 40px 0px 48px 0px;
+    padding: 40px 0px 45px 0px;
+}
+section.cancer-care {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.contact-us-text h5 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 100%;
+}
+.contact-us-text p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 20px;
+    font-weight: 325;
+}
+button.contact-us-button {
+    background-color: #046A38;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    width: 180px;
+    line-height: 25.5px;
+    text-align: center;
+}
+.faq-text h5 {
+    color: #ff6820;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 350;
+    line-height: 100%;
+}
+.accordion-button:not(.collapsed) {
+    color: black !important;
+}
+.accordion-button:hover {
+    transition: none;
+    transform: none;
+}
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ff6820;
+}
+.icon {
+    margin-left: auto;
+    transition: all 0.3s ease;
+}
+
+/* When OPEN → show minus */
+.accordion-button:not(.collapsed) .icon::before {
+    content: "\F2EA"; /* Bootstrap icon code for dash (bi-dash) */
+}
+
+/* When CLOSED → show plus */
+.accordion-button.collapsed .icon::before {
+    content: "\F4FE"; /* Bootstrap icon code for plus (bi-plus) */
+}
+section.faq {
+    margin-bottom: 86px;
+}
+.accordion-button::after{display: none;}
+button.accordion-button {
+    justify-content: space-between;
+}
+div#accordionExample {
+    margin: 40px 94px;
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.accordion-header {
+    margin-bottom: 0;
+    background-color: #FFF9F9;
+}
+.accordion-item {
+    background-color: #FFF9F9;
+    margin: 0px 0px;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+button.accordion-button {
+    background-color: transparent !important;
+    border-bottom: 0 !important;
+}
+section.health-library {
+    background-color: #FF6820;
+    color: white;
+    margin: 40px 0px;
+    padding: 20px 0px 80px 0px;
+
+}
+.health-library-text {
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0px;
+    font-weight: 350;
+    line-height: 100%;
+}
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 5%;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: black;
+      border-radius: 50%;
+      padding: 20px;
+    }
+    /* parent must be relative */
+    /* ONLY health library slider arrows */
+.technalogy .owl-nav {
+    position: relative;
+}
+
+.technalogy {
+  position: relative;
+}
+
+
+
+/* BUTTONS */
+.technalogy .owl-nav button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+ /* background: #ffffff !important;
+  color: #000 !important;*/
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+/* LEFT */
+.technalogy .owl-prev {
+  margin-left: -20px;
+}
+
+/* RIGHT */
+.technalogy .owl-next {
+  margin-right: -20px;
+}
+
+/* HOVER */
+.technalogy .owl-nav button:hover {
+  background: #FF6820 !important;
+  color: #fff !important;
+}
+
+
+/*.technalogy .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    right: -20px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.technalogy .owl-nav button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff !important;
+    color: #000 !important;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+.technalogy .owl-nav button:hover {
+    background: #ff6a00 !important;
+    color: #fff !important;
+}
+
+/* Arrow icons fix */
+.technalogy .owl-nav .owl-prev {
+    margin-left: -10px;
+}
+
+.technalogy .owl-nav .owl-next {
+    margin-right: -10px;
+}**/
+/* parent */
+.technalogy {
+  position: relative;
+}
+
+/* nav container */
+.technalogy .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none; /* important */
+}
+
+/* buttons clickable */
+.technalogy .owl-nav button {
+  pointer-events: all;
+  background: none !important;
+  border: none;
+}
+
+/* LEFT ARROW */
+.arrow-left {
+    position: absolute;
+    left: -47px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    top: -21px;
+}
+
+/* RIGHT ARROW */
+.arrow-right {
+  position: absolute;
+  right: -47px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  top: -21px;
+}
+/* remove default owl styles completely */
+.technalogy .owl-nav button.owl-prev,
+.technalogy .owl-nav button.owl-next {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* remove that orange circle */
+.technalogy .owl-nav button span {
+  background: none !important;
+}
+.sub-opinion-text a {
+    color: #046a38;
+}
+.aoi-gallery h5 {
+    color: #ff6820;
+    font-size: 40px;
+    font-weight: 350;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+body {
+    font-family: Arial;
+    background: #fff;
+}
+
+.gallery-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.gallery-section h2 {
+    color: #ff6a00;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+/* Card style */
+.card {
+    height: 250px;
+    background: #ccc;
+    border-radius: 20px;
+    width: 372px;
+}
+
+/* Arrow styling */
+.owl-nav {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    background: transparent !important;
+    font-size: 30px !important;
+}
+
+.owl-prev {
+    left: -36px;
+}
+
+.owl-next {
+    right: -36px;
+}
+.Our-Hospitals h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #FF8637;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 350;
+}
+/*.technalogy {
+  overflow: hidden;
+}*/
+
+.technalogy .owl-stage {
+  display: flex;
+}
+
+.technalogy .owl-item {
+  flex: 0 0 auto;
+}
+.patient-slider .owl-item {
+  transition: all 0.3s ease;
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+
+.patient-slider .owl-item.center {
+     opacity: 1; 
+}
+.patient-card p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 325;
+    padding: 16px;
+    background-color: #FFF9F9;
+    border-radius: 0px 0px 20px 20px;
+}
+.cancer-care-text p {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.our-hospital-content h3 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.our-hospital-content {
+     background-color: #FFF9F9;
+}
+.our-hospital-content-link {
+    display: flex;
+    gap: 42px;
+    padding: 10px 57px 20px 63px;
+}
+.our-hospital-content-link a {
+    color: #046A38;
+    font-size: 14px;
+    line-height: 25px;
+}
+.our-hospital-content {
+    background-color: #FFF9F9;
+    width: 373px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+section.personalized-session {
+    margin-top: 68px;
+    background-color: #FF6820;
+    padding: 31px 0px 0px 0px;
+    color: white;
+}
+.personalized-session h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 62px;
+}
+.personalized-session p {
+    font-size: 18px;
+}
+.qr-img {
+    display: flex;
+    padding-top: 22px;
+    gap: 41px;
+}
+
+.divider {
+    width: 2px;
+    height: 198px;
+    background-color: white;
+}
+.personalized-session p {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.qr-img p {
+    font-size: 14px;
+    text-align: center;
+}
+section.footer {
+    background-color: #252525;
+    padding: 21px 0px;
+    color: white;
+}
+.footer h3 {
+    font-size: 12px;
+    line-height: 140%;
+
+}
+.footer p {
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    padding-top: 33px;
+}
+.follow-us-text {
+    font-size: 16px;
+    line-height: 19px;
+}
+.footter-icons img.img-fluid {
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    margin: 10px 9px 5px -2px;
+}
+.last-text p {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+.last-text h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+}
+.alligned {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.fotter-icon-text {
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.foter-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+    width: 141px;
+}
+.disclaminer {
+    padding: 34px 124px;
+}
+.icon-wrapper img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Default (closed state) */
+.icon-minus {
+    display: none;
+}
+
+/* When accordion is OPEN */
+.accordion-button:not(.collapsed) .icon-plus {
+    display: none;
+}
+
+.accordion-button:not(.collapsed) .icon-minus {
+    display: inline;
+}
+img.icon-plus {
+    width: 20px;
+    height: 20px;
+}
+img.icon-minus {
+    width: 20px;
+    height: 20px;
+}
+.accordion-item {
+    border: none !important;
+}
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+.accordion-collapse {
+    border: none !important;
+}
+.owl-prev::before,
+.owl-next::before {
+    font-size: 40px !important;
+}
+.last-text {
+    text-align: left;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+.last-text a {
+    text-decoration: none;
+    color: white;
+}
+input.form-element:focus,
+input.form-element:focus-visible {
+    border: 1px solid #D0D0D0 !important;
+    outline: none;}
+.tab-content .owl-stage-outer {
+    padding: 20px 0 4px 0px;
+}
+.tab-content .owl-item {
+    transform: scale(0.8) !important;
+}
+.tab-content .owl-item.active.center {
+    transform: scale(1.1) !important;
+}
+section.header-nav {
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 99999;
+}
+
+section.Techno {
+    margin-top: 70px;
+    padding: 0px;
+}
+section.main {
+    padding: 125px 0px 0px 0px;
+}
+.tab-content .owl-item {
+    transform: scale(0.8) !important;
+}
+
+/* Overlay */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 99999;
+}
+
+/* Modal Box */
+.modal-content {
+    width: 342px;
+    background: #f5f5f5;
+    padding: 25px;
+    position: absolute;
+    text-align: left;
+    top: 148px;
+    border-radius: 0 !important;
+}
+
+/* Heading */
+.modal-content h2 {
+    color: #FF8637;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Gotham-Bolt';
+    text-align: center;
+}
+.modal-content p {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-family: 'Gotham-Book';
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Inputs */
+.modal-content input,
+.modal-content textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    margin-bottom: 15px;
+    padding: 6px 2px;
+    outline: none;
+}
+
+/* File upload */
+.file-upload label {
+    font-size: 13px;
+    display: block;
+}
+
+/* Checkbox */
+.checkbox {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+/* Submit button */
+.submit-btn {
+    width: 100%;
+    background: #FF8637;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Button style */
+.open-btn {
+    padding: 10px 15px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.viewmore {
+    background-color: #046a38;
+    color: white;
+    padding: 8px 48px;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+}
+.footter-icons img {
+    transition: 0.3s;
+}
+
+/* Facebook */
+.footter-icons a:nth-child(1) img:hover {
+     filter: brightness(0) saturate(100%) invert(50%) sepia(80%) saturate(1500%) hue-rotate(10deg);
+}
+
+/* Instagram */
+.footter-icons a:nth-child(2) img:hover {
+    filter: brightness(0) saturate(100%) invert(50%) sepia(80%) saturate(1500%) hue-rotate(10deg);
+}
+
+/* YouTube */
+.footter-icons a:nth-child(3) img:hover {
+    filter: brightness(0) saturate(100%) invert(50%) sepia(80%) saturate(1500%) hue-rotate(10deg);
+}
+
+/* Instagram (again if repeated) */
+.footter-icons a:nth-child(4) img:hover {
+   filter: brightness(0) saturate(100%) invert(50%) sepia(80%) saturate(1500%) hue-rotate(10deg);
+}
+
+/* Twitter */
+.footter-icons a:nth-child(5) img:hover {
+    filter: brightness(0) saturate(100%) invert(50%) sepia(80%) saturate(1500%) hue-rotate(10deg);
+}
+.footter-icons img:hover {
+    transform: scale(1.15);
+}
+.modal-content input::placeholder,
+.modal-content textarea::placeholder {
+  color: #000; 
+  font-size: 14px; 
+  font-family: Gotham-Book;
+  font-weight: 400;
+}
+button.on-click-button {
+    /* border: 1px solid black; */
+    background-color: #ACACAC33;
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 400;
+    padding: 4px;
+    font-family: 'Gotham-Book';
+}
+.file-upload {
+    display: flex;
+    justify-content: space-between;
+}
+.file-upload  {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    margin-bottom: 15px;
+    padding: 6px 2px;
+    outline: none;
+}
+.file-upload label {
+    font-size: 14px;
+    display: block;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Gotham-Book';
+}
+label.checkbox {
+  display: flex;
+  align-items: center; /* vertical alignment fix */
+  gap: 10px; /* thoda balanced gap */
+  width: auto; /* full width hatao */
+}
+
+label.checkbox input[type="checkbox"] {
+  margin: 0; /* default margin hatao */
+  width: 16px;
+  height: 16px;
+}
+button.submit-btn {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gotham-Medium';
+}
+#modal {
+  display: none; /* ✅ ye must hai */
+}
+#modal.active {
+  display: flex;
+}
+/* MAIN MODAL */
+#get-a-vid-cons.get-a-vid-cons {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+/* ACTIVE STATE */
+#get-a-vid-cons.get-a-vid-cons.active {
+  display: flex;
+}
+
+/* BOX */
+#get-a-vid-cons .get-a-vid-cons__box {
+    background: #fff;
+    width: 526px;
+    max-width: 90%;
+    padding: 24px 33px;
+    border-radius: 0;
+    position: absolute;
+    top: 149px;
+}
+/* HEADINGS */
+#get-a-vid-cons h2 {
+    text-align: center;
+    color: #FF8637;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 100%;
+    font-family: 'Gotham-Bolt';
+}
+
+#get-a-vid-cons p {
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-family: 'Gotham-Book';
+}
+
+/* FORM LAYOUT */
+#get-a-vid-cons .get-a-vid-cons__row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#get-a-vid-cons .get-a-vid-cons__group {
+  flex: 1;
+}
+
+/* INPUTS */
+#get-a-vid-cons input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 7px 5px;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+}
+
+#get-a-vid-cons .get-a-vid-cons__checkbox input {
+    width: auto;
+}
+ #get-a-vid-cons select {
+    width: 100%;
+        border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 7px 5px;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+ }
+
+#get-a-vid-cons input:focus, #get-a-vid-cons select:focus {
+    border-bottom: 1px solid #cccccc;
+}
+
+/* PLACEHOLDER */
+#get-a-vid-cons input::placeholder {
+  color: #000;
+}
+
+/* UPLOAD BUTTON */
+#get-a-vid-cons .get-a-vid-cons__upload {
+    background: #FF8637;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* CHECKBOX */
+#get-a-vid-cons .get-a-vid-cons__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+#get-a-vid-cons .get-a-vid-cons__checkbox input {
+  accent-color: #FF6820;
+}
+
+/* SUBMIT */
+#get-a-vid-cons .get-a-vid-cons__submit {
+    width: 200px;
+    margin: 20px auto 0;
+    display: block;
+    background: #FF8637;
+    color: #fff;
+    border: none;
+    padding: 14px 19px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#get-a-vid-cons .get-a-vid-cons__checkbox {
+  align-items: flex-start; /* top align for multiline */
+}
+#get-a-vid-cons .get-a-vid-cons__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin: -10px 0; */
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#get-a-vid-cons select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: none;
+    background-image: url("arrow-down.png");
+    background-repeat: no-repeat;
+    background-position: right 1px center;
+    background-size: 14px;
+    padding: 11px 20px 4px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+#get-a-vid-cons .get-a-vid-cons__upload {
+    border: none;
+    padding: 2px 10px;
+    /* width: 100%; */
+    text-align: left;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.alligned:hover p, .alligned:hover h3, .alligned:hover a{
+    color: #ff6820;
+}
+.alligned:hover img{
+    filter: brightness(0) saturate(100%) invert(50%) sepia(80%) saturate(1500%) hue-rotate(10deg);
+}
+.patient-modal {
+  display: none;
+  position: fixed;
+  z-index: 119999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+}
+
+.patient-modal-content {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+}
+
+.patient-modal iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 12px;
+}
+
+/* Close button */
+.patient-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Remove button default styles */
+.patient-video-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Stop background scroll */
+body.patient-no-scroll {
+  overflow: hidden;
+}
+input{
+    outline: none;
+}
+.mobile-border{border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;}
+@media screen and (min-width: 280px) and (max-width: 767px) {
+
+.announcement {
+    top: 129px;
+}
+.main-text {
+    position: absolute;
+    top: 253px;
+}
+.logo {
+    position: fixed;
+    margin: 0px -34px !important;
+}
+.nav-elements {
+    align-items: center;
+    gap: 60px;
+}
+header {
+    margin: 44px 50px;
+        align-items: center;
+}
+.nav-elements {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-left: 15px;   /* 👈 THIS fixes first text cut */
+    gap: 20px;
+     margin: 0;  
+     justify-content: flex-start;   
+}
+.nav-elements a {
+    padding: 0px 15px;
+}
+row{
+    margin: 0;
+    padding: 0;
+}
+container{
+    margin: 0;
+    padding: 0;
+} 
+form.input {
+    flex-direction: column;
+}
+.main-box {
+    width: 94%;
+    left: 0;
+    padding: 0px 15px 5px 15px;
+    height: fit-content;
+    margin: 3%;
+    position: absolute;
+    box-shadow: 0px 0px 10px #ccc;
+    top: 255px;
+}
+.main-text h4 {
+    font-size: 23px;
+}
+.main-text h3 {
+    font-size: 18px;
+}
+.main-text p {
+    font-size: 13px;
+}
+.boo {
+    padding: 28px 16px;
+    margin: 19px 10px;
+}
+.technalogy .owl-nav .owl-next {
+    margin-right: 49px;
+    margin-top: -65px;
+}
+.technalogy .owl-nav .owl-prev {
+    margin-left: 49px;
+    margin-top: -65px;
+}
+button.upload {
+    padding: 14px 56px;
+}
+.second h3 {
+    font-size: 22px;
+}
+input.form-control1 {
+    padding: 5px 20px;
+}
+.main-box {
+    margin-top: 46px;
+    margin: 46px 10px 10px 10px;
+}
+.doc-text h3 {
+    font-size: 26px;
+}
+.doc-text p {
+    font-size: 15px;
+}
+.doctor-images .img-fluid {
+    width: -webkit-fill-available;
+}
+.doc-text-image {
+    margin: 0px 5px 25px 5px;
+}
+.second-opinion p {
+    font-size: 16px;
+}
+.second-opinion-text h3 {
+    font-size: 34px;
+}
+.steps {
+    margin: 20px 10px;
+}
+.sec-form {
+    margin: 19px 10px;
+    padding: 28px 10px;
+    box-shadow: 0px 0px 12px #ccc;
+}
+button.upload-report {
+    font-size: 14px;
+}
+.video-session-text h2 {
+    font-size: 30px;
+}
+button.video-session-button {
+    margin: 46px 0px 50px 39px;
+}
+h2.cancer-treated {
+    font-size: 34px;
+}
+.nav-tabs .nav-link {
+    width: 160px;
+     font-size: 13px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    width: 160px;
+     font-size: 13px;
+}
+
+.video-session-text2 h2 {
+    font-size: 30px;
+}
+.video-session-text2 h2 {
+    font-size: 30px;
+}
+.technology-infra button.nav-link.tech {
+    width: 100%;
+    font-size: 10px;
+}
+.technology-infra-text h4 {    font-size: 28px;
+}
+.center-slider-2 img {
+    padding: 3px 5px;
+}
+.Tumor-Board-text h4 {
+    font-size: 30px;
+}
+.Tumor-Board-text p {
+    font-size: 14px;
+}
+.tumor-content {
+    width: 100%;
+    padding: 0px 10px;
+}
+.patient-story-text h5 {
+    font-size: 34px;
+}
+.why-second-opinion-text h5 {
+    font-size: 33px;
+}
+.why-second-opinion-text p {
+    font-size: 16px;
+}
+section.why-second-opinion {
+    padding: 40px 10px 40px 10px;
+}
+/*.second-opinion .img-fluid {
+    width: -webkit-fill-available;
+}*/
+.sec-op-te-img {
+    margin-bottom: 20px;
+}
+.cancer-care-text p {
+    font-size: 16px;
+}
+.cancer-care-text p {
+    font-size: 16px;
+}
+button.second-opinion-button {
+    width: 325px;
+    margin-left: 6px;
+}
+.cancer-care-text {
+    margin-bottom: 24px;
+}
+.contact-us-text h5 {
+    font-size: 27px;
+}
+.contact-us-text p {
+    font-size: 13px;
+}
+section.contact-us {
+    padding: 40px 10px 45px 10px;
+}
+.faq-text h5 {
+    font-size: 28px;
+}
+.health-library-text {
+    padding: 30px 0px;
+}
+div#accordionExample {
+    margin: 40px 20px;
+}
+
+.gallery-section h2 {
+    font-size: 34px;
+}
+.item .card {
+    width: 100%;
+}
+.gallery-section .owl-prev {
+    left: 3px;
+}
+.gallery-section .owl-next {
+    right: 3px;
+}
+.Our-Hospitals h2 {
+    margin-top: 8px;
+    font-size: 34px;
+}
+.our-hospital-content {
+    width: 100%;
+    margin: 14px 1px 15px -1px;
+}
+.our-hospital-content-link {
+    gap: 79px;
+    padding: 5px 0px 20px 28px;
+}
+#why-aoi img.img-fluid {
+    width: 100%;
+    width: -webkit-fill-available;
+}
+.personalized-session p {
+    font-size: 16px;
+}
+.foter-logo {
+     margin-top: 37px;
+}
+.fotter-icon-text {
+    margin-top: 37px;
+}
+.alligned {
+    display: flex;
+    gap: 25px;
+     justify-content:flex-start ;
+    align-items: center;
+}
+.alligned {
+    margin-top: 37px;
+}
+.disclaminer {
+    padding: 37px 20px;
+}
+.grid-box {
+    grid-template-columns: repeat(2, 1fr);
+}
+#head-mobile-view {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1000;
+    cursor: pointer;
+}
+#head-mobile-view span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: black; /* change to white if header is orange */
+    margin: 5px 0;
+}
+.right-menu {
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .right-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 260px;
+        height: 100%;
+        background: #fff;
+        flex-direction: column;
+        padding: 20px;
+        z-index: 999;
+    }
+
+    .right-menu.active {
+        right: 0;
+    }
+
+ #head-mobile-view {
+        display: block;
+    }
+    .main video {
+    height: 559px;
+}
+button.submit {
+    margin-bottom: 10px;
+}
+.form-element {
+    width: 100%;
+}
+.sec-form  div {
+    flex-direction: column;
+}
+.sec-form  .check-terms {
+    display: flex;
+    flex-direction: row;
+}
+.video-session-colum {
+    padding: 10px 25px 10px 0px;
+
+}
+.main::after {
+    height: 686px;
+}
+.Tumor-Board-text p br{display: none;}
+section.technology-infra {
+    padding: 0 15px;
+}
+section.Our-Hospitals {
+    margin: 11px;
+}
+#get-a-vid-cons input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 7px 5px;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+}
+#get-a-vid-cons .get-a-vid-cons__row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+img.img-fluid.join {
+     margin: 0px -10px;
+}
+img.img-fluid.join {
+    margin: 0px -10px;
+}
+section.docs {
+    margin-top: 40px;
+}
+ul.nav.nav-tabs.tech {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 tabs per row */
+  gap: 15px;
+  padding: 0 0 44px 0;
+}
+
+ul.nav.nav-tabs.tech .nav-item {
+  width: 100%;
+}
+.modal-content h2 {
+      font-size: 20px;
+}
+#get-a-vid-cons h2 {
+      font-size: 20px;
+}
+.second p {
+    text-align: center;
+}
+section.Techno {
+    margin-top: 50px;
+    padding: 0px;
+}
+}
